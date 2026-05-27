@@ -1,0 +1,27 @@
+# Remote Sensing MCP - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# MCP Framework
+mcp>=1.0.0
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+flask>=3.0.0
+flask-cors>=4.0.0
+
+# Google Earth Engine
+earthengine-api>=0.1.370
+
+# Geospatial
+geopandas>=0.14.0
+shapely>=2.0.0
+pyproj>=3.6.0
+fiona>=1.9.0
+geojson>=3.0.0
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+requests>=2.31.0
+python-dotenv>=1.0.0
